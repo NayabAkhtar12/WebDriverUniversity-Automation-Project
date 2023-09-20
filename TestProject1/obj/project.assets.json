@@ -1999,9 +1999,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Automation Testing\\WebDriverUniversity-Automation-Project\\WebDriverUniversity-AutomationProject\\WebDriverUniversity-Automation-Project\\TestProject1\\QA-Webdriveruniversity.csproj",
-      "projectName": "QA-Webdriveruniversity",
-      "projectPath": "D:\\Automation Testing\\WebDriverUniversity-Automation-Project\\WebDriverUniversity-AutomationProject\\WebDriverUniversity-Automation-Project\\TestProject1\\QA-Webdriveruniversity.csproj",
+      "projectUniqueName": "D:\\Automation Testing\\WebDriverUniversity-Automation-Project\\WebDriverUniversity-AutomationProject\\WebDriverUniversity-Automation-Project\\TestProject1\\Webdriveruniversity_AutomationProject.csproj",
+      "projectName": "Webdriveruniversity_AutomationProject",
+      "projectPath": "D:\\Automation Testing\\WebDriverUniversity-Automation-Project\\WebDriverUniversity-AutomationProject\\WebDriverUniversity-Automation-Project\\TestProject1\\Webdriveruniversity_AutomationProject.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
       "outputPath": "D:\\Automation Testing\\WebDriverUniversity-Automation-Project\\WebDriverUniversity-AutomationProject\\WebDriverUniversity-Automation-Project\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",

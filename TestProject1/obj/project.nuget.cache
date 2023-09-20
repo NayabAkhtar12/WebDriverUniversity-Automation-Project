@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A0quW2mJ9LNQpFizGc+v9nvm5GZFctMC8FGqB3t5MhON7/fer/z+0zKBNqK/igUmwzC3AXiUHSgd3Cr9zRkNAA==",
+  "dgSpecHash": "EUau+lLhBQ3AOq2dows3+mRTJi5NuZFdRM6aKP4isV2AAc7o36zpI7EZ3UswQXMcceyGpq+90t1LTtNJTYgJcg==",
   "success": true,
-  "projectFilePath": "D:\\Automation Testing\\WebDriverUniversity-Automation-Project\\WebDriverUniversity-AutomationProject\\WebDriverUniversity-Automation-Project\\TestProject1\\QA-Webdriveruniversity.csproj",
+  "projectFilePath": "D:\\Automation Testing\\WebDriverUniversity-Automation-Project\\WebDriverUniversity-AutomationProject\\WebDriverUniversity-Automation-Project\\TestProject1\\Webdriveruniversity_AutomationProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

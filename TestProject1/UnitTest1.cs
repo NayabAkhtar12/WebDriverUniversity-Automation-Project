@@ -4,27 +4,18 @@ using OpenQA.Selenium.Chrome;
 
 namespace TestProject1
 {
-    public class Tests
+    [TestFixture]
+    public class Tests:Base
     {
-       public IWebDriver drv;
-
-        [OneTimeSetUp]
-        public void Setup()
-        {
-           drv = new ChromeDriver();
-            drv.Manage().Timeouts().PageLoad.Add(System.TimeSpan.FromSeconds(30));
-            drv.Navigate().GoToUrl("http://webdriveruniversity.com/Contact-Us/contactus.html");
-            Thread.Sleep(2000);
-        }
 
         [Test]
         public void ContactForm()
         {
-            //drv.Navigate().GoToUrl("http://webdriveruniversity.com/Contact-Us/contactus.html");
+            drv.Navigate().GoToUrl("http://webdriveruniversity.com/Contact-Us/contactus.html");
 
             IWebElement FName = drv.FindElement(By.XPath("//*[@id=\"contact_form\"]/input[1]"));
             FName.SendKeys("Nayab");
-           Thread.Sleep(3000);
+            Thread.Sleep(3000);
 
             IWebElement LName = drv.FindElement(By.XPath("//*[@id=\"contact_form\"]/input[2]"));
             LName.SendKeys("Akhtar");
@@ -34,11 +25,11 @@ namespace TestProject1
             Email.SendKeys("nayabf52@gmail.com");
             Thread.Sleep(2000);
 
-            IWebElement Comments = drv.FindElement(By.ClassName("\"feedback-input\""));
+            IWebElement Comments = drv.FindElement(By.CssSelector("#contact_form > textarea"));
             Comments.SendKeys("Nice");
-            Thread.Sleep(2000);
+            Thread.Sleep(3000);
 
-            IWebElement Submit = drv.FindElement(By.ClassName("contact_button"));
+            IWebElement Submit = drv.FindElement(By.XPath("//*[@id=\"form_buttons\"]/input[2]"));
             Submit.Click();
             Thread.Sleep(3000);
         }
@@ -53,12 +44,6 @@ namespace TestProject1
         //    Thread.Sleep(3000);
         //}
 
-        [OneTimeTearDown]
-       public void close()
-        {
-            drv.Quit();
-            drv.Dispose();
-            Thread.Sleep(3000);
-        }
+      
     }
 }
