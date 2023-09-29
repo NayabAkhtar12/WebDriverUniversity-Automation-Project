@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TestProject1
 {
-    public class Base
+    public class Baseclass
     {
         public IWebDriver drv;
 
