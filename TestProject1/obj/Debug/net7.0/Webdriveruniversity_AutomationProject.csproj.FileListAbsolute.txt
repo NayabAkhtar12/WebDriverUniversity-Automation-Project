@@ -1,6 +1,5 @@
-D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\testhost.exe
-D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\testhost.dll
+D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\testhost.exe
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\NUnit3.TestAdapter.dll
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\NUnit3.TestAdapter.pdb
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\nunit.engine.dll
@@ -9,6 +8,7 @@ D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\testcentric.engine.metadata.dll
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\Webdriveruniversity_AutomationProject.deps.json
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\Webdriveruniversity_AutomationProject.runtimeconfig.json
 D:\Automation Testing\WebDriverUniversity-Automation-Project\WebDriverUniversity-AutomationProject\WebDriverUniversity-Automation-Project\TestProject1\bin\Debug\net7.0\Webdriveruniversity_AutomationProject.dll
