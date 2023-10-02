@@ -96,20 +96,20 @@ namespace TestProject1
             drv.Navigate().GoToUrl(Url);
 
 
-            string DropdownXpath = "//*[@id=\"dropdowm-menu-1\"]";
-            SelectElement DropDown1 = new SelectElement(drv.FindElement(By.XPath(DropdownXpath)));
-            DropDown1.SelectByText("C#");
-            Thread.Sleep(3000);
+            //string DropdownXpath = "//*[@id=\"dropdowm-menu-1\"]";
+            //SelectElement DropDown1 = new SelectElement(drv.FindElement(By.XPath(DropdownXpath)));
+            //DropDown1.SelectByText("C#");
+            //Thread.Sleep(3000);
 
-            string Dropdown2Xpath = "//*[@id=\"dropdowm-menu-2\"]";
-            SelectElement DropDown2 = new SelectElement(drv.FindElement(By.XPath(Dropdown2Xpath)));
-            DropDown2.SelectByValue("testng");
-            Thread.Sleep(3000);
+            //string Dropdown2Xpath = "//*[@id=\"dropdowm-menu-2\"]";
+            //SelectElement DropDown2 = new SelectElement(drv.FindElement(By.XPath(Dropdown2Xpath)));
+            //DropDown2.SelectByValue("testng");
+            //Thread.Sleep(3000);
 
-            string Dropdown3Xpath = "//*[@id=\"dropdowm-menu-3\"]";
-            SelectElement DropDown3 = new SelectElement(drv.FindElement(By.XPath(Dropdown3Xpath)));
-            DropDown3.SelectByValue("jquery");
-            Thread.Sleep(3000);
+            //string Dropdown3Xpath = "//*[@id=\"dropdowm-menu-3\"]";
+            //SelectElement DropDown3 = new SelectElement(drv.FindElement(By.XPath(Dropdown3Xpath)));
+            //DropDown3.SelectByValue("jquery");
+            //Thread.Sleep(3000);
 
             //string CheckboxXpath = "//*[@id=\"checkboxes\"]";
             //IList<IWebElement> Checkbox = drv.FindElements(By.XPath(CheckboxXpath));
@@ -129,10 +129,19 @@ namespace TestProject1
             Checkbox.Click();
             Thread.Sleep(3000);
 
+                  string CheckboxXPath3 = "//*[@id=\"checkboxes\"]/label[3]";
+            IWebElement Checkbox3 = drv.FindElement(By.XPath(CheckboxXPath3));
+            Checkbox3.Click();
+            Thread.Sleep(3000);
+
 
             string RadioButtonPath = "//*[@id=\"radio-buttons\"]/input[5]";
             IWebElement RadioButton = drv.FindElement(By.XPath(RadioButtonPath));
             RadioButton.Click();
+            Thread.Sleep(3000);
+            string RadioButton2Path = "//*[@id=\"radio-buttons\"]/input[2]";
+            IWebElement RadioButton2 = drv.FindElement(By.XPath(RadioButton2Path));
+            RadioButton2.Click();
             Thread.Sleep(3000);
 
         }
