@@ -73,8 +73,6 @@ namespace TestProject1
                     driver1.Quit();
                 }
             }  
-
-           
         }
 
         static IList DataDrivenTesting()

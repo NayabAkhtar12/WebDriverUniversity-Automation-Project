@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "MSTest.TestFramework": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -79,6 +83,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[117.0.5938.8800, )"
+            },
+            "TestStack.BDDfy": {
+              "target": "Package",
+              "version": "[4.3.2, )"
             },
             "coverlet.collector": {
               "target": "Package",
