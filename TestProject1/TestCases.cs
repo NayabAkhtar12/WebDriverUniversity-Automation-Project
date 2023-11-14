@@ -15,8 +15,11 @@ namespace TestProject1
             drv.Navigate().GoToUrl("http://webdriveruniversity.com/Contact-Us/contactus.html");
 
             IWebElement FName = drv.FindElement(By.XPath("//*[@id=\"contact_form\"]/input[1]"));
+            
             FName.SendKeys("Nayab");
             Thread.Sleep(3000);
+            drv.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(3);
+
 
             IWebElement LName = drv.FindElement(By.XPath("//*[@id=\"contact_form\"]/input[2]"));
             LName.SendKeys("Akhtar");
@@ -45,6 +48,7 @@ namespace TestProject1
             UserName.SendKeys("Nayab");
            // UserName.SendKeys("nayabf52@gmail.com");
             Thread.Sleep(3000);
+           // WebDriverWait Wait=
 
             string X_Pasword = "//*[@id=\"password\"]";
             IWebElement Password = drv.FindElement(By.XPath(X_Pasword));

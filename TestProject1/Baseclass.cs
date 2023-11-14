@@ -16,10 +16,10 @@ namespace TestProject1
         public void Setup()
         {
             drv = new ChromeDriver();
-            drv.Manage().Timeouts().PageLoad.Add(System.TimeSpan.FromSeconds(30));
             drv.Navigate().GoToUrl("http://webdriveruniversity.com");
+            drv.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             drv.Manage().Window.Maximize();
-            Thread.Sleep(2000);
+          //  Thread.Sleep(2000);
         }
 
         [OneTimeTearDown]
