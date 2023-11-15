@@ -44,11 +44,14 @@ namespace TestProject1
             String Url = "http://webdriveruniversity.com/Login-Portal/index.html";
             drv.Navigate().GoToUrl(Url);
             string X_Username = "//*[@id=\"text\"]";
-            IWebElement UserName = drv.FindElement(By.XPath(X_Username));
-            UserName.SendKeys("Nayab");
+           // IWebElement UserName = drv.FindElement(By.XPath(X_Username));
            // UserName.SendKeys("nayabf52@gmail.com");
-            Thread.Sleep(3000);
-           // WebDriverWait Wait=
+          //  Thread.Sleep(3000);
+            WebDriverWait wait = new WebDriverWait(drv, TimeSpan.FromSeconds(3));
+            IWebElement UserName = wait.Until(ExpectedConditions.ElementExists(By.XPath(X_Username)));
+            UserName.SendKeys("Nayab");
+            drv.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+
 
             string X_Pasword = "//*[@id=\"password\"]";
             IWebElement Password = drv.FindElement(By.XPath(X_Pasword));
